@@ -1,0 +1,275 @@
+openapi: 3.0.0
+# Added by API Auto Mocking Plugin
+servers:
+  - description: SwaggerHub API Auto Mocking
+    url: https://virtserver.swaggerhub.com/zarvat/UG-admin/1.0.0
+info:
+  description: This is a simple API
+  version: "1.0.0"
+  title: Simple Inventory API
+  contact:
+    email: you@your-company.com
+  license:
+    name: Apache 2.0
+    url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
+tags:
+  - name: bookings
+    description: Бронирования    
+
+paths:
+
+  '/bookings/{date_from}/{date_to}':
+    get:
+      tags:
+        - bookings
+      summary: Возвращает список bookings на заданный временной промежуток
+      operationId: bookings.byDate
+      parameters:
+        - name: date_from
+          in: path
+          description: Дата в формате YYYY-MM-DD, начало временного промежутка (недели)
+          required: true
+          schema:
+            example: '2019-08-19'
+            type: string
+        - name: date_to
+          in: path
+          description: Дата в формате YYYY-MM-DD, конец временного промежутка (недели)
+          required: true
+          schema:
+            example: '2019-08-25'
+            type: string          
+      responses:
+        '200':
+          description: Список bookings на временной промежуток
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  oneOf:
+                    - $ref: '#/components/schemas/bookings'
+        '400':
+          $ref: '#/components/responses/400Error'  
+        '404':
+          $ref: '#/components/responses/404Error'  
+        '500':
+          $ref: '#/components/responses/500Error'       
+                  
+components:
+  schemas:
+    users:
+      description: Клиент
+      type: object
+      required:
+        - id
+        - name
+        - phone
+        - email
+      properties:
+        id:
+          description: Идентификатор
+          type: integer
+          example: 5
+        name:
+          description: Имя
+          type: string
+          example: Иванов Иван
+        phone:
+          description: Телефон
+          type: string
+          example: +7(999)999-77-88
+        email:
+          description: Email
+          type: string
+          format: email
+          example: name@yame.ru
+    rooms:
+      description: Зал
+      type: object
+      required:
+        - id
+        - name
+      properties:
+        id:
+          description: Идентификатор
+          type: integer
+          example: 5
+        name:
+          description: Название
+          type: string
+          example: Зал номер 43
+    actions:
+      description: Цель бронирования
+      type: object
+      required:
+        - id
+        - name 
+        - price
+      properties:  
+        id:
+          description: Идентификатор
+          type: integer
+          example: 5
+        name:
+          description: Название
+          type: string
+          example: Фотосъемка   
+        price:
+          description: Цена за один час пользования залом
+          type: number
+          example: 1200
+    bookings:
+      description: Бронирование
+      type: object
+      properties:  
+        id:
+          description: Идентификатор
+          type: integer
+          example: 5
+        user:
+          $ref: '#/components/schemas/users' 
+        room:
+          $ref: '#/components/schemas/rooms'    
+        reserve_from:
+          description: Начало брони
+          type: string
+          format: date-time
+          example: "2019-08-12T11:43:41.961Z"
+        reserve_to:
+          description: Конец брони
+          type: string
+          format: date-time
+          example: "2019-08-12T11:43:41.961Z"            
+        action:
+          $ref: '#/components/schemas/actions'           
+        prepayment:
+          description: Предоплата
+          type: number
+          example: 500  
+        full_price:
+          description: Полная цена 
+          type: integer
+          example: 5000          
+          
+  requestBodies:
+  
+    default:
+      description: Базовое тело запроса будет зависеть от параметров сущности 
+      content:
+        application/json:
+          schema:
+            properties:
+              data:
+                description: Какая-то дата       
+                type: string
+                          
+  responses:
+  
+    204:
+      description: No Content
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              message:
+                type: string
+                example: Объект удален успешно
+              code:
+                type: string
+
+    400Error:
+      description: Bad Request
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              errors:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    message:
+                      type: string
+                      example: Передан пустой или некорректный запрос
+                    code:
+                      type: string
+                      example: response-error
+
+    404Error:
+      description: Not Found
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              errors:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    message:
+                      type: string
+                      example: Сущность с id = {id} не найдена
+                    code:
+                      type: string
+                      example: request-error
+
+    401Error:
+      description: 401 Unauthorized
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              errors:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    message:
+                      type: string
+                      example: Неудачная авторизация
+                    code:
+                      type: string
+                      example: not-authorized
+
+    403Error:
+      description: 403 Forbidden
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              errors:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    message:
+                      type: string
+                      example: Доступ запрещен
+                    code:
+                      type: string
+                      example: forbidden
+
+    500Error:
+      description: Internal Server Error
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              errors:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    message:
+                      type: string
+                      example: Внутренняя ошибка
+                    code:
+                      type: string
+                      example: system-error

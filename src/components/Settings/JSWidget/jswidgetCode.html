@@ -1,0 +1,29 @@
+<!-- BEGIN UGOLOC CODE {literal} -->
+<div id='ugoloc'></div>
+<script type='text/javascript'>
+var widgetUrl = 'http://ugoloc.greencow.pro';
+(function () {
+  var room_id = 41;
+  var timestamp = Math.round(Date.now()/10000);
+  var xhr = new XMLHttpRequest();
+  xhr.open('POST', widgetUrl + '/embed/booking.json?id=' + room_id);
+  xhr.onload = function() {
+    if (xhr.status === 200) {
+      var script = document.createElement('script');
+      script.type = 'text/javascript';
+      script.src = widgetUrl + '/assets/embed/ugoloc.embed.js?t=' + timestamp;
+      var styles = document.createElement('link');
+      styles.type = 'text/css';
+      styles.rel = 'stylesheet';
+      styles.href = widgetUrl + '/assets/embed/ugoloc.css?t=' + timestamp;
+      var ugoloc = document.getElementById('ugoloc');
+      var json = JSON.parse(xhr.responseText);
+      document.body.appendChild(styles);
+      ugoloc.innerHTML = json.html;
+      ugoloc.appendChild(script);
+    }
+};
+xhr.send();
+})();
+</script>
+<!-- {/literal} END UGOLOC CODE -->

@@ -1,0 +1,77 @@
+body
+  font-weight 500
+  color #4A4A4A
+  width 100vw
+  height 100vh
+  display block
+  &::after
+    content ''
+    //  background url("/statics/maket.jpg")
+    opacity .1
+    top 0
+    left 0
+    bottom 0
+    right 0
+    position absolute
+    z-index -1
+a
+  color #4A4A4A
+  text-decoration none
+thead tr:first-child th
+  font-weight 600
+#context-menu
+  box-shadow none
+.w-75em
+  width 75em
+#context-menu:hover tr
+  background grey
+
+.wrapper
+  width 1280px
+  margin 0 auto
+  overflow hidden
+  padding 0 20px
+  &--header
+    padding 0
+
+.menu
+  left 0
+  right 0
+  top 74px
+  background-color #ffffff
+  position fixed
+  width 1280px
+  margin 0 auto
+  overflow hidden
+  padding 5px 10px
+  z-index 1000
+  &--menu2
+    top 120px
+
+.content
+  margin-top 44px
+  &--content2
+    margin-top 90px
+
+.data-table
+  tbody tr td
+    height 50px
+    padding 0 12px
+  .header
+    background $grey-2
+    text-transform: uppercase
+    color $grey-7
+    font-weight bold
+    padding 0 12px
+  .q-table__top
+    padding-left: 0
+    padding-right: 0
+.btn-filter
+  font-size .9rem
+  min-height 1.5em
+  padding: 2px 8px
+
+@media (min-width $breakpoint-lg-min)
+  .q-header, .q-footer
+    .q-tab__content
+      min-width auto

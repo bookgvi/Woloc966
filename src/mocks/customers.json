@@ -1,0 +1,32 @@
+[
+  {
+    "firstName": "Алексей",
+    "lastName": "Алексеев",
+    "phone": "796578767761",
+    "email": "mail@il.ru"
+  },
+  {
+    "firstName": "Павел",
+    "lastName": "Иванов",
+    "phone": "796566766762",
+    "email": "red@is.com"
+  },
+  {
+    "firstName": "Сергей",
+    "lastName": "Сергеев",
+    "phone": "796946767763",
+    "email": "tricrt@oo.mu"
+  },
+  {
+    "firstName": "Федор",
+    "lastName": "Смолов",
+    "phone": "778997856664",
+    "email": "gerre@gb.bg"
+  },
+  {
+    "firstName": "Дмитрий",
+    "lastName": "Изгагин",
+    "phone": "798658767765",
+    "email": "farg@us.yt"
+  }
+]

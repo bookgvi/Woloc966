@@ -1,0 +1,52 @@
+[
+  {
+    "name": "PhotoFilmStudio",
+    "rooms": [
+      {
+        "id": 520,
+        "name": "Зал Black 55",
+        "color": "#FCD600"
+      },
+      {
+        "id": 521,
+        "name": "Зал Black 130",
+        "color": "#3591FA"
+      },
+      {
+        "id": 522,
+        "name": "Зал Wood",
+        "color": "#9700E7"
+      },
+      {
+        "id": 523,
+        "name": "Зал Black 110",
+        "color": "#00F83D"
+      }
+    ]
+  },
+  {
+    "name": "studio250",
+    "rooms": [
+      {
+        "id": 520,
+        "name": "Зал Black 55",
+        "color": "#FCD600"
+      },
+      {
+        "id": 521,
+        "name": "Зал Black 130",
+        "color": "#3591FA"
+      },
+      {
+        "id": 522,
+        "name": "Зал Wood",
+        "color": "#9700E7"
+      },
+      {
+        "id": 523,
+        "name": "Зал Black 110",
+        "color": "#00F83D"
+      }
+    ]
+  }
+]

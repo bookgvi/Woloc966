@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "name": "photo",
+      "alias": "Фотосъемка",
+      "price": 1200
+    },
+    {
+      "name": "video",
+      "alias": "Видеосъемка",
+      "price": 1400
+    },
+    {
+      "name": "event",
+      "alias": "Событие",
+      "price": 1200
+    }
+  ]
+}

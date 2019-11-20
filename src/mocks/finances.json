@@ -1,0 +1,153 @@
+{
+  "data": {
+    "account": {
+      "num": "100000000001",
+      "amount": 146.42
+    },
+    "transactions": {
+      "total": 10,
+      "items": [
+        {
+          "createdAt": "2019-01-02T12:34:45+03:00",
+          "purpose": "Предоплата",
+          "purposeDescription": "брони через Единый кошелек",
+          "amount": 100,
+          "commission": 250,
+          "balance": 146.42,
+          "booking": {
+            "id": 123
+          },
+          "user": {
+            "id": 234
+          }
+        },
+        {
+          "createdAt": "2019-01-02T12:34:45+03:00",
+          "purpose": "Предоплата",
+          "purposeDescription": "брони через Единый кошелек",
+          "amount": 100,
+          "commission": 250,
+          "balance": 146.42,
+          "booking": {
+            "id": 123
+          },
+          "user": {
+            "id": 234
+          }
+        },
+        {
+          "createdAt": "2019-01-02T12:34:45+03:00",
+          "purpose": "Предоплата",
+          "purposeDescription": "брони через Единый кошелек",
+          "amount": 100,
+          "commission": 250,
+          "balance": 146.42,
+          "booking": {
+            "id": 123
+          },
+          "user": {
+            "id": 234
+          }
+        },
+        {
+          "createdAt": "2019-01-02T12:34:45+03:00",
+          "purpose": "Предоплата",
+          "purposeDescription": "брони через Единый кошелек",
+          "amount": 100,
+          "commission": 250,
+          "balance": 146.42,
+          "booking": {
+            "id": 123
+          },
+          "user": {
+            "id": 234
+          }
+        },
+        {
+          "createdAt": "2019-01-02T12:34:45+03:00",
+          "purpose": "Предоплата",
+          "purposeDescription": "брони через Единый кошелек",
+          "amount": 100,
+          "commission": 250,
+          "balance": 146.42,
+          "booking": {
+            "id": 123
+          },
+          "user": {
+            "id": 234
+          }
+        },
+        {
+          "createdAt": "2019-01-02T12:34:45+03:00",
+          "purpose": "Предоплата",
+          "purposeDescription": "брони через Единый кошелек",
+          "amount": 100,
+          "commission": 250,
+          "balance": 146.42,
+          "booking": {
+            "id": 123
+          },
+          "user": {
+            "id": 234
+          }
+        },
+        {
+          "createdAt": "2019-01-02T12:34:45+03:00",
+          "purpose": "Предоплата",
+          "purposeDescription": "брони через Единый кошелек",
+          "amount": 100,
+          "commission": 250,
+          "balance": 146.42,
+          "booking": {
+            "id": 123
+          },
+          "user": {
+            "id": 234
+          }
+        },
+        {
+          "createdAt": "2019-01-02T12:34:45+03:00",
+          "purpose": "Предоплата",
+          "purposeDescription": "брони через Единый кошелек",
+          "amount": 100,
+          "commission": 250,
+          "balance": 146.42,
+          "booking": {
+            "id": 123
+          },
+          "user": {
+            "id": 234
+          }
+        },
+        {
+          "createdAt": "2019-01-02T12:34:45+03:00",
+          "purpose": "Предоплата",
+          "purposeDescription": "брони через Единый кошелек",
+          "amount": 100,
+          "commission": 250,
+          "balance": 146.42,
+          "booking": {
+            "id": 123
+          },
+          "user": {
+            "id": 234
+          }
+        },
+        {
+          "createdAt": "2019-01-02T12:34:45+03:00",
+          "purpose": "Предоплата",
+          "purposeDescription": "брони через Единый кошелек",
+          "amount": 100,
+          "commission": 250,
+          "balance": 146.42,
+          "booking": {
+            "id": 123
+          },
+          "user": {
+            "id": 234
+          }
+        }
+      ]
+    }
+  }
+}

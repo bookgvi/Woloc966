@@ -1,0 +1,404 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "alias": "HNY300",
+      "discount": 300,
+      "minPrice": 2000,
+      "users": {
+        "id": 3,
+        "name": "Марк"
+      },
+      "room": {
+        "id": 27,
+        "name": "Большой зал",
+        "color": "#123456"
+      },
+      "studios": {
+        "id": 339,
+        "name": "PhotoFilmStudio"
+      },
+      "createdAt": "2018-01-16 12:35:18",
+      "updatedAt": "2018-01-16 12:35:18",
+      "canceledAt": "2018-01-16 12:35:18",
+      "deletedAt": "2018-01-16 12:35:18",
+      "expiredAt": "2018-01-16 12:35:18",
+      "isPublic": "Персональный",
+      "type": "rub",
+      "types": [
+        {
+          "id": 0,
+          "title": "percent"
+        },
+        {
+          "id": 1,
+          "title": "rub"
+        }
+      ],
+      "startAt": "null",
+      "startedAt": "2018-09-21 00:00:00",
+      "dateFrom": "2018-09-21 00:00:00",
+      "dateTo": "2018-09-21 00:00:00"
+    },
+    {
+      "id": 2,
+      "alias": "HNY300",
+      "discount": 300,
+      "minPrice": 2000,
+      "users": {
+        "id": 3,
+        "name": "Марк"
+      },
+      "room": {
+        "id": 27,
+        "name": "Малый зал",
+        "color": "#123456"
+      },
+      "studios": {
+        "id": 339,
+        "name": "PhotoFilmStudio"
+      },
+      "createdAt": "2018-01-16 12:35:18",
+      "updatedAt": "2018-01-16 12:35:18",
+      "canceledAt": "2018-01-16 12:35:18",
+      "deletedAt": "2018-01-16 12:35:18",
+      "expiredAt": "2018-01-16 12:35:18",
+      "isPublic": "Публичный",
+      "type": "percent",
+      "types": [
+        {
+          "id": 0,
+          "title": "percent"
+        },
+        {
+          "id": 1,
+          "title": "rub"
+        }
+      ],
+      "startAt": "null",
+      "startedAt": "2018-09-21 00:00:00",
+      "dateFrom": "2018-09-21 00:00:00",
+      "dateTo": "2018-09-21 00:00:00"
+    },
+    {
+      "id": 3,
+      "alias": "HNY300",
+      "discount": 300,
+      "minPrice": 2000,
+      "users": {
+        "id": 3,
+        "name": "Марк"
+      },
+      "room": {
+        "id": 27,
+        "name": "Малый зал",
+        "color": "#123456"
+      },
+      "studios": {
+        "id": 339,
+        "name": "PhotoFilmStudio"
+      },
+      "createdAt": "2018-01-16 12:35:18",
+      "updatedAt": "2018-01-16 12:35:18",
+      "canceledAt": "2018-01-16 12:35:18",
+      "deletedAt": "2018-01-16 12:35:18",
+      "expiredAt": "2018-01-16 12:35:18",
+      "isPublic": "Публичный",
+      "type": "percent",
+      "types": [
+        {
+          "id": 0,
+          "title": "percent"
+        },
+        {
+          "id": 1,
+          "title": "rub"
+        }
+      ],
+      "startAt": "null",
+      "startedAt": "2018-09-21 00:00:00",
+      "dateFrom": "2018-09-21 00:00:00",
+      "dateTo": "2018-09-21 00:00:00"
+    },
+    {
+      "id": 4,
+      "alias": "HNY300",
+      "discount": 300,
+      "minPrice": 2000,
+      "users": {
+        "id": 3,
+        "name": "Марк"
+      },
+      "room": {
+        "id": 27,
+        "name": "Малый зал",
+        "color": "#123456"
+      },
+      "studios": {
+        "id": 339,
+        "name": "PhotoFilmStudio"
+      },
+      "createdAt": "2018-01-16 12:35:18",
+      "updatedAt": "2018-01-16 12:35:18",
+      "canceledAt": "2018-01-16 12:35:18",
+      "deletedAt": "2018-01-16 12:35:18",
+      "expiredAt": "2018-01-16 12:35:18",
+      "isPublic": "Публичный",
+      "type": "percent",
+      "types": [
+        {
+          "id": 0,
+          "title": "percent"
+        },
+        {
+          "id": 1,
+          "title": "rub"
+        }
+      ],
+      "startAt": "null",
+      "startedAt": "2018-09-21 00:00:00",
+      "dateFrom": "2018-09-21 00:00:00",
+      "dateTo": "2018-09-21 00:00:00"
+    },
+    {
+      "id": 5,
+      "alias": "HNY300",
+      "discount": 300,
+      "minPrice": 2000,
+      "users": {
+        "id": 3,
+        "name": "Марк"
+      },
+      "room": {
+        "id": 1,
+        "name": "Малый зал",
+        "color": "#123456"
+      },
+      "studios": {
+        "id": 339,
+        "name": "PhotoFilmStudio"
+      },
+      "createdAt": "2018-01-16 12:35:18",
+      "updatedAt": "2018-01-16 12:35:18",
+      "canceledAt": "2018-01-16 12:35:18",
+      "deletedAt": "2018-01-16 12:35:18",
+      "expiredAt": "2018-01-16 12:35:18",
+      "isPublic": "Публичный",
+      "type": "percent",
+      "types": [
+        {
+          "id": 0,
+          "title": "percent"
+        },
+        {
+          "id": 1,
+          "title": "rub"
+        }
+      ],
+      "startAt": "null",
+      "startedAt": "2018-09-21 00:00:00",
+      "dateFrom": "2018-09-21 00:00:00",
+      "dateTo": "2018-09-21 00:00:00"
+    },
+    {
+      "id": 6,
+      "alias": "HNY300",
+      "discount": 300,
+      "minPrice": 2000,
+      "users": {
+        "id": 3,
+        "name": "Марк"
+      },
+      "room": {
+        "id": 5,
+        "name": "Малый зал",
+        "color": "#123456"
+      },
+      "studios": {
+        "id": 339,
+        "name": "PhotoFilmStudio"
+      },
+      "createdAt": "2018-01-16 12:35:18",
+      "updatedAt": "2018-01-16 12:35:18",
+      "canceledAt": "2018-01-16 12:35:18",
+      "deletedAt": "2018-01-16 12:35:18",
+      "expiredAt": "2018-01-16 12:35:18",
+      "isPublic": "Публичный",
+      "type": "percent",
+      "types": [
+        {
+          "id": 0,
+          "title": "percent"
+        },
+        {
+          "id": 1,
+          "title": "rub"
+        }
+      ],
+      "startAt": "null",
+      "startedAt": "2018-09-21 00:00:00",
+      "dateFrom": "2018-09-21 00:00:00",
+      "dateTo": "2018-09-21 00:00:00"
+    },
+    {
+      "id": 7,
+      "alias": "HNY300",
+      "discount": 300,
+      "minPrice": 2000,
+      "users": {
+        "id": 3,
+        "name": "Марк"
+      },
+      "room": {
+        "id": 7,
+        "name": "Малый зал",
+        "color": "#123456"
+      },
+      "studios": {
+        "id": 339,
+        "name": "PhotoFilmStudio"
+      },
+      "createdAt": "2018-01-16 12:35:18",
+      "updatedAt": "2018-01-16 12:35:18",
+      "canceledAt": "2018-01-16 12:35:18",
+      "deletedAt": "2018-01-16 12:35:18",
+      "expiredAt": "2018-01-16 12:35:18",
+      "isPublic": "Персональный",
+      "type": "percent",
+      "types": [
+        {
+          "id": 0,
+          "title": "percent"
+        },
+        {
+          "id": 1,
+          "title": "rub"
+        }
+      ],
+      "startAt": "null",
+      "startedAt": "2018-09-21 00:00:00",
+      "dateFrom": "2018-09-21 00:00:00",
+      "dateTo": "2018-09-21 00:00:00"
+    },
+    {
+      "id": 8,
+      "alias": "HNY300",
+      "discount": 300,
+      "minPrice": 2000,
+      "users": {
+        "id": 3,
+        "name": "Марк"
+      },
+      "room": {
+        "id": 27,
+        "name": "Малый зал",
+        "color": "#123456"
+      },
+      "studios": {
+        "id": 339,
+        "name": "PhotoFilmStudio"
+      },
+      "createdAt": "2018-01-16 12:35:18",
+      "updatedAt": "2018-01-16 12:35:18",
+      "canceledAt": "2018-01-16 12:35:18",
+      "deletedAt": "2018-01-16 12:35:18",
+      "expiredAt": "2018-01-16 12:35:18",
+      "isPublic": "Публичный",
+      "type": "percent",
+      "types": [
+        {
+          "id": 0,
+          "title": "percent"
+        },
+        {
+          "id": 1,
+          "title": "rub"
+        }
+      ],
+      "startAt": "null",
+      "startedAt": "2018-09-21 00:00:00",
+      "dateFrom": "2018-09-21 00:00:00",
+      "dateTo": "2018-09-21 00:00:00"
+    },
+    {
+      "id": 9,
+      "alias": "HNY300",
+      "discount": 300,
+      "minPrice": 2000,
+      "users": {
+        "id": 3,
+        "name": "Марк"
+      },
+      "room": {
+        "id": 27,
+        "name": "Малый зал",
+        "color": "#123456"
+      },
+      "studios": {
+        "id": 339,
+        "name": "PhotoFilmStudio"
+      },
+      "createdAt": "2018-01-16 12:35:18",
+      "updatedAt": "2018-01-16 12:35:18",
+      "canceledAt": "2018-01-16 12:35:18",
+      "deletedAt": "2018-01-16 12:35:18",
+      "expiredAt": "2018-01-16 12:35:18",
+      "isPublic": "Публичный",
+      "type": "percent",
+      "types": [
+        {
+          "id": 0,
+          "title": "percent"
+        },
+        {
+          "id": 1,
+          "title": "rub"
+        }
+      ],
+      "startAt": "null",
+      "startedAt": "2018-09-21 00:00:00",
+      "dateFrom": "2018-09-21 00:00:00",
+      "dateTo": "2018-09-21 00:00:00"
+    },
+    {
+      "id": 10,
+      "alias": "HNY300",
+      "discount": 300,
+      "minPrice": 2000,
+      "users": {
+        "id": 3,
+        "name": "Марк"
+      },
+      "room": {
+        "id": 27,
+        "name": "Малый зал",
+        "color": "#123456"
+      },
+      "studios": {
+        "id": 339,
+        "name": "PhotoFilmStudio"
+      },
+      "createdAt": "2018-01-16 12:35:18",
+      "updatedAt": "2018-01-16 12:35:18",
+      "canceledAt": "2018-01-16 12:35:18",
+      "deletedAt": "2018-01-16 12:35:18",
+      "expiredAt": "2018-01-16 12:35:18",
+      "isPublic": "Персональный",
+      "type": "percent",
+      "types": [
+        {
+          "id": 0,
+          "title": "percent"
+        },
+        {
+          "id": 1,
+          "title": "rub"
+        }
+      ],
+      "startAt": "null",
+      "startedAt": "2018-09-21 00:00:00",
+      "dateFrom": "2018-09-21 00:00:00",
+      "dateTo": "2018-09-21 00:00:00"
+    }
+  ]
+}
