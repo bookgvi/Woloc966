@@ -21,6 +21,7 @@
         slot(name="table-controls-prepend")
         TableControls(v-bind="props"
           :setPagination="setPagination"
+          :resetFilter="resetFilter"
           @search="search"
         )
           slot(name="table-controls-append")
@@ -60,6 +61,7 @@ export default {
     return {
       data: [],
       total: 0,
+      resetFilter: false,
       account: { amount: 0 },
       controlsRowId: undefined,
       dialogRowId: undefined,

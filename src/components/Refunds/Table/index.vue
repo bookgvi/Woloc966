@@ -26,9 +26,6 @@ export default {
     columns,
     details
   }),
-  created () {
-    this.$app.filters.filterDefault('refunds')
-  }
 }
 </script>
 

@@ -61,6 +61,7 @@ export default {
     prevPage: Function,
     nextPage: Function,
     setPagination: Function,
+    resetFilter: Boolean
   },
   data () {
     return {
@@ -73,6 +74,20 @@ export default {
       const isFind = (this.$route.path !== '/settings') ^ (this.$route.path !== '/settings/discounts')
       return !isFind
     }
+  },
+  watch: {
+    resetFilter (newValue) {
+      if (newValue) {
+        this.inputValue = ''
+      } else {
+        const currentPage = this.$route.path.split('/')[1]
+        this.inputValue = this.$app.filters.getValues(currentPage).search
+      }
+    }
+  },
+  created () {
+    const currentPage = this.$route.path.split('/')[1]
+    this.inputValue = this.$app.filters.getValues(currentPage).search
   },
   methods: {
     hNextPage (val) {

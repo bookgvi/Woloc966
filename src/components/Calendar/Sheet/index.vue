@@ -266,7 +266,6 @@ export default {
       this.findBooking(null, this.$route.query.updateBookings)
     }
     this.setWeekRange()
-    this.$app.filters.filterDefault('calendar')
     this.calendarToday()
   },
   computed: {

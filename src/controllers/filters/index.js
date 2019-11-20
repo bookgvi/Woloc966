@@ -49,6 +49,7 @@ export default {
       const { filters } = sessionStorage
 
       if (filters) this.values = JSON.parse(filters)
+      return this.values
     },
     saveToSession () {
       sessionStorage.filters = JSON.stringify(this.values)
@@ -72,10 +73,6 @@ export default {
       this.readFromSession()
       this.values.bookings = { customer: id }
       this.saveToSession()
-    },
-    async filterDefault (page) {
-      this.reset(page)
-      return this.values[page]
     },
     async reset (page) {
       const { values } = this

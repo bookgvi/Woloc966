@@ -5,6 +5,11 @@ export default {
   },
   watch: {
     filter (filter) {
+      if (!filter.search) {
+        this.resetFilter = true
+      } else {
+        this.resetFilter = false
+      }
       this.onRequest(this.pagination, filter)
     }
   },
