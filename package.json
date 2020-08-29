@@ -18,7 +18,7 @@
     "dotenv": "^8.0.0",
     "echarts": "^4.3.0",
     "jwt-decode": "^2.2.0",
-    "lodash": "^4.17.14",
+    "lodash": "^4.17.19",
     "moment": "^2.24.0",
     "quasar": "^1.4.3",
     "vue-ctk-date-time-picker": "^2.3.1",
